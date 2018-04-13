@@ -22,6 +22,18 @@
 	   fetch="https://github.com/ResurrectedRemix"
 	   revision="nougat" />
 
+  <remote  name="non"
+	   fetch="https://github.com/non1979"
+	   revision="nougat" />
+
+ <remote name = "bb"
+          revision = "master"
+          fetch = "https://bitbucket.org/" />
+
+  <remote name = "uber"
+          revision = "master"
+          fetch = "https://github.com/UBERROMS" />
+	
   <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
