@@ -1,0 +1,852 @@
+
+ ▼ Resurrected Remix Nougat Ver 5.8.5 Changelog
+
+
+ ▼ 04/14/2018
+
+
+ ▪ project build/
+ ▪ c1186f2 Bump security patch level to 2018-04-05
+
+ ▪ project device/samsung/i9300/
+ ▪ 2e8f2d9 mtp dirty hack (1/3)
+ ▪ 92edadc usb power is too high and make unstable MTP
+
+ ▪ project frameworks/av/
+ ▪ 60253c6 Refactor MediaPlayerBase's notify
+ ▪ aa205ae libmediaplayerservice:Fix deadlock on gapless start failure
+ ▪ e41a788 Revert "libmediaplayerservice: fix deadlock on gapless start failure"
+ ▪ ecd70f6 Prevent MediaPlayerService::Client's use-after-free
+ ▪ 552fc48 Check NAL size before looking inside
+ ▪ 5e098a8 M3UParser: detect variant streams without EXT-X-STREAM-INF
+
+ ▪ project frameworks/base/
+ ▪ ede9117 Adjust URI host parsing to stop on \ character.
+ ▪ d518085 Check for null-terminator in ResStringPool::string8At
+ ▪ e54b8e4 [RTT] ParcelableRttResults parcel code fix
+ ▪ 4a9624f Fix VerifyCredentialResponse parcelling code
+ ▪ d7373dd MTP_DITRY_HACK: Fix after merging 7.1.2
+ ▪ f368520 MTP Dirty Hack (use mtp as default after connect to usb) (1/3) In device tree check this string:
+
+ ▪ project packages/apps/Settings/
+ ▪ b31fb34 fix
+ ▪ b5eb0f1 Revert "Show CPU info (1/2) Settings"
+ ▪ 8100c4b Show CPU info (1/2) Settings
+ ▪ 9ea6da7 Add switch for Mtp_Dirty_Hack
+
+ ▪ project vendor/cm/
+ ▪ 8e1d0e0 Fix Android "Work Profiles" also known as AfW 'Android for Work'
+ ▪ b5c89f6 build: dt_image: support prebuilt DT images
+ ▪ 62feaa5 write_makefiles: fix paths in BUILD_PREBUILT with destination
+ ▪ 43e5a0c Needs for MTP Dirty Hack
+
+ ▼ 04/10/2018
+
+
+ ▪ project system/security/
+ ▪ 6d708c7 key_store:Using euid instead of uid when upgrade wifi blobs
+
+ ▼ 04/09/2018
+
+
+ ▪ project system/bt/
+ ▪ 7f63160 AVRCP: Initialize buffer for attribute values to be written to
+ ▪ 57ca41c SDP: Check p_req_end before reading from p_req
+ ▪ 648fe19 DO NOT MERGE Truncate new line characters when adding string to config
+
+ ▼ 04/08/2018
+
+
+ ▪ project system/bt/
+ ▪ e50c514 AVRCP: Check the number of text value attributes requested
+ ▪ dfba2a4 AVRCP: Check number of text attribute values in response
+ ▪ b4edda5 AVRCP: Check number of text attributes in response
+
+ ▼ 04/07/2018
+
+
+ ▪ project external/aac/
+ ▪ 3e74d9b MPEG-4 AAC Decoder: check against invalid height info
+
+ ▪ project external/libavc/
+ ▪ c75adf7 Decoder: Set prev slice type for I slice.
+ ▪ da8176d Decoder: Fixed reset values in parse sps.
+
+ ▪ project external/libhevc/
+ ▪ fbf3c39 Fix output buffer size check
+ ▪ 80d2511 Check limits for log2_max_pic_order_cnt_lsb_minus4 in sps
+
+ ▪ project frameworks/ex/
+ ▪ 563f1c3 Add bounds checking for transparency lookup
+
+ ▪ project packages/apps/Email/
+ ▪ b3978f1 Disallow attaching files from our own EmailAttachmentProvider.
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ ec01df7 Disallow attaching files from our own EmailAttachmentProvider.
+
+ ▼ 04/06/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 14ade14 audio: return EINVAL to avoid get_presentation_position spamming logs
+
+ ▼ 04/04/2018
+
+
+ ▪ project frameworks/base/
+ ▪ e05295b PM: Signature spoofing [1/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ 8ed6b1d RR: Signature spoofing [2/2]
+
+ ▪ project system/bt/
+ ▪ ad9879d bt: Fix 32k sbc_codec.sampling_rate
+
+ ▼ 04/03/2018
+
+
+ ▪ project vendor/cm/
+ ▪ 2323c1a Revert "Don't ship Magisk (nor any other) anymore"
+ ▪ 7de8e1f Revert "Remove optional SU, wanna be 5.8.6"
+ ▪ 33bd203 Revert "Remove root script"
+ ▪ 8edf34a AOSP = Normal version
+ ▪ 26dae91 Rootless Pixel Launcher 3.4 L3GO = Android Go version
+ ▪ 25321aa Remove root script
+ ▪ 3d908f2 Remove optional SU, wanna be 5.8.6
+ ▪ b69590f Don't ship Magisk (nor any other) anymore
+
+ ▼ 03/28/2018
+
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/CertInstaller/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/Nfc/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/apps/WallpaperPicker/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/BlockedNumberProvider/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/providers/TvProvider/
+
+ ▪ project packages/screensavers/Basic/
+
+ ▪ project system/security/
+ ▪ 162d94c keystore: add upgradeKeyBlob call into keystore exportKey.
+ ▪ 1d02c81 Fix issue: upgradeKeyBlob call always return PERMISSION_DENIED.
+
+ ▼ 03/26/2018
+
+
+ ▪ project bootable/recovery/
+ ▪ 670b468 Revert "Revert "Fix clang 5.0 errors""
+ ▪ d9713a6 Revert "Fix clang 5.0 errors"
+ ▪ c7a1fcb Update-binary: stop calling log commands that do not exist in TWRP
+
+ ▪ project external/f2fs-tools/
+ ▪ d0f0018 f2fs-tools: disable clang on all targets
+ ▪ 8460d9b fsck.f2fs: allow to disable forced full file system scans f2fs-tools keeps track of the kernel version by saving the content of /proc/version and forces a full file system scan when this changes from one boot to another. Since /proc/version includes a build timestamp, the scan is performed every time the kernel is re-built. Allow to disable the forced scan setting the environment variable F2FS_DISABLE_FORCED_CHECK to true when building fsck.f2fs.
+
+ ▼ 03/24/2018
+
+
+ ▪ project external/v8/
+ ▪ 2145e51 remove  -Wno-undefined-var-template
+ ▪ f0615fe Remove unncessary -no-integrated-as flag.
+ ▪ 578eb8d Set -fno-strict-aliasing here so we can get rid of it globally
+ ▪ c043bdb v8: force use of arm instruction set
+
+ ▪ project vendor/samsung/
+ ▪ 7d1d6cd initial a7y17lte import
+ ▪ 8f2ddb0 universal7880: regen blobs and add missing ones
+
+ ▼ 03/23/2018
+
+
+ ▪ project bootable/recovery/
+ ▪ aa9449a Fix clang 5.0 errors
+
+ ▪ project hardware/samsung/
+ ▪ 89e134e fingerprint: send cancel-message to system
+
+ ▪ project kernel/samsung/smdk4412/
+ ▪ 9b30937 ehci-s5p: fix section mismatch in EHCI USB host drivers if compiling for arm
+ ▪ 576b5fd bcmdhd: build without -DCONFIG_HAS_WAKELOCK
+ ▪ fb0f3fb modem_if: fixup v4
+
+ ▪ project system/core/
+ ▪ 4abb65f libadf: adf_test: fix crash on adf.devices failure
+ ▪ 45b684a libadf: convert to C++
+ ▪ 54aa882 <cutils/atomic.h> has been inlined for two years now.
+ ▪ a0a1b28 Fix reference counting for Assembly
+ ▪ 4203b82 Fix warnings in cutils/atomic.h
+ ▪ 85d81c3 toolbox: fix memory leak
+ ▪ 4ae4b50 Fix warnings in libziparchive
+ ▪ 415b518 fix warning: Null pointer argument in call to memory comparison function
+ ▪ 547fd08 Check against LOG_ID_MAX instead of LOG_ID_KERNEL
+ ▪ f783a45 libadf: adf_test: fix clang + kati build
+ ▪ c4c04e7 Add mode bits to a call to open with O_CREAT
+ ▪ d67bef5 libziparchive: use _FILE_OFFSET_BITS=64
+ ▪ 7a99795 Make libziparchive C++-only.
+ ▪ 5bd132a rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings
+ ▪ 604f6c1 init.rc: don't start console unless asked to
+ ▪ 84928d1 start zygote in post-fs-data
+ ▪ 6848e56 [debuggerd]: Fixes the debuggerd be blocked forever issue.
+ ▪ 2bcff57 Fix 'ps.c' formatting.
+ ▪ ae21927 cutils: don't fortify property_get on clang.
+ ▪ fdb4db0 adb: fix undefined behavior
+ ▪ 77dd4fc Hide gnu extension warnings in log/log.h
+ ▪ f7c5df7 fs_mgr: fix clang static analyzer warning
+ ▪ d5bf4cf Make libbacktrace build with LLVM r275480
+ ▪ 1a9a675 Disable ALOGD and ALOGI messages in NDEBUG builds
+ ▪ 7b58de5 Don't go busy loop when waiting child process.
+ ▪ 8d4b3cb Change Permissions to CPUs/Governors
+ ▪ 597740d libutils: Use Python newer than 2.6
+
+ ▪ project system/extras/
+ ▪ 8973395 fix potential leak of memory pointed.
+ ▪ 22d8202 fix warning: Potential leak of memory pointed to by 'bench'
+ ▪ 1e718a6 Fix clang static analyzer warnings.
+ ▪ 4253b67 Fix clang warnings and leak of full_stats_file .
+ ▪ 8e9adcd simpleperf: Fix an error after adding newer Clang
+
+ ▼ 03/22/2018
+
+
+ ▪ project external/chromium-webview/
+ ▪ 2405338 Update webviews to Chromium 65.0.3325.144
+
+ ▼ 03/21/2018
+
+
+ ▪ project vendor/cm/
+ ▪ d2c44a3 Magisk Manager Version: v5.6.3
+ ▪ fc602ab prebuilts: update Magisk to v16.0
+ ▪ 539f372 Rootless Pixel Launcher 3.3
+ ▪ 3b1aef8 prebuilt: upate included apks to latest
+ ▪ 89c1fa9 Remove CMFileManager
+
+ ▼ 03/19/2018
+
+
+ ▪ project device/samsung/i9300/
+ ▪ 9ef49df Update 94kernel
+ ▪ 5c2293a add boeffla power
+
+ ▪ project device/samsung/smdk4412-common/
+ ▪ 6ab0a2e add snap
+ ▪ 35fc359 add call recording
+
+ ▪ project kernel/samsung/smdk4412/
+ ▪ 470b741 power: disable l2_hsic wakelock
+ ▪ dfb8aa7 PM / Wakeup: Use rcu callbacks for better performance
+ ▪ 5754bad modem_if: fixup v3
+ ▪ 3a256bd modem_if: disable printing of IPC-RX/TX messages
+ ▪ bfd561b modem_if: fixup v2
+ ▪ 0705059 modem_if: dirty fix for panic in suspend state
+ ▪ df88177 BACKPORT: support for the mount namespace (Magisk Hide!)
+ ▪ 3965629 proc: Remove additional SafetyNet flags from /proc/cmdline
+ ▪ d1727bf proc: Remove verifiedbootstate flag from /proc/cmdline
+ ▪ 888b0d1 some boeffla tweaks
+ ▪ e312f8d Boeffla Sound: Fixed bug in improved sysfs input validation
+ ▪ 15bcc9f Boeffla Sound: Improved sysfs input validation
+ ▪ d04de70 Boeffla-Sound: Engine 1.6.6
+ ▪ 5713d71 Boeffla-Sound: Engine 1.6.5
+ ▪ 536b2bf Boeffla-Sound: Engine 1.6.4
+ ▪ 818f092 Boeffla-Sound: Engine 1.6.3
+ ▪ 024b3f9 Boeffla Sound: FM radio not available with LTE models
+ ▪ bdce8c2 Boeffla-Sound: Engine 1.6.0
+ ▪ 1476066 charge_level: Don't show zero charging rate in charge info
+ ▪ 062efac charge_level: Improved sysfs input validation
+ ▪ bff54cc mach-exynos: Support for current CPU temperature reading from Exynos4 TMU driver
+ ▪ 1f638d6 cpufreq: fix 1700 MHz OC (using non-existing freqs and scaling issues)
+ ▪ 0832138 mach-midas: Slightly increase thermal throttling temperatures and frequency for step1
+ ▪ 5cefbc6 cpufreq: 1700MHz CPU OC
+ ▪ bcf6cae cpuidle-exynos4: Remove debug logging
+ ▪ a0e0b1a mali/midas-power: Decrease minimum voltage boundary (V2)
+ ▪ dc9c01d Revert "mali/midas-power: Decrease minimum voltage boundary"
+ ▪ 3b2a1a9 mali: GPU control corrections
+ ▪ 50c23d2 mali: add GPU overclocking frequencies
+ ▪ 218f3a2 mali/midas-power: Decrease minimum voltage boundary
+ ▪ bc9e4d7 samsung-battery: Add charge info to charge level interface V2
+ ▪ 96c4778 cpufreq: Add sysfs interface to read Exynos asv_level
+ ▪ 9b600e7 cpufreq: CPU undervolting interface
+ ▪ 3f980e4 cpufreq: 1600MHz CPU OC
+ ▪ 52b39be samsung_battery: Add wireless level to charge level interface
+ ▪ 1f0d1c6 samsung_battery: Charge level interface v2
+ ▪ 1ced6a7 samsung_battery: Charge level interface
+
+ ▼ 03/18/2018
+
+
+ ▪ project android/
+ ▪ b142874 manifest: Track our frameworks/ex fork
+
+ ▪ project art/
+ ▪ 495333e runtime: arch: support kryo for 32 bit
+
+ ▪ project build/
+ ▪ 7883716 Bump security patch level to 2018-03-05
+ ▪ 421b026 Bump security patch level to 2018-02-05
+ ▪ aa57067 Bump security patch level to 2018-01-05
+
+ ▪ project packages/apps/Contacts/
+ ▪ e94a686 Contacts: Don't crash if Blocked Number Storage is disabled
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 050ded6 ContactsCommon: Fix possible NPE
+ ▪ dd07dbb Allow to edit the SIP field of contacts stored locally
+ ▪ 3703f5d Export only selected contact, not all contacts
+ ▪ 80a72c2 Add support to export multi contacts to Vcard
+
+ ▪ project packages/apps/LockClock/
+ ▪ 660192d Remove Google Play Services dependency
+ ▪ 2f7fd83 LockClock: Clean up proguard, fix build without jack
+ ▪ a2d3876 AM/PM: Fix incorrect am/pm text
+ ▪ d2e18bd Actually verifies if CM weather feature is available
+ ▪ 264a9f9 Verifies if weather service is available
+ ▪ aa54e89 Don't include all resource densities
+ ▪ 4079540 Unregister from WeatherManager ONLY if service was actually registered
+ ▪ 4a432c8 Report correct status if failed to process weather update request
+ ▪ bfcd1bc Handle >5 forecast items in cLock Forecast view
+ ▪ a4103b1 Fix weather source string translatability
+ ▪ 1eebffd Refactor cLock to use the new Weather API
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 7a6db26 OmniSwitch: recalc cached colors on restart
+ ▪ aae16c4 OmniSwitch: never time filter locked and docked tasks
+ ▪ 2c1a31f OmniSwitch: add dynamic drag handle coloring
+ ▪ 512d307 OmniSwitch: add up arrorw to settings activity
+ ▪ 2a5dd5b OmniSwitch: its remove task and not stop task
+
+ ▪ project packages/services/Telecomm/
+ ▪ ed74212 Fix unable to swap calls through BT in CDMA
+ ▪ 4df7240 Fix InCall UI display issue for SIP and normal calls
+ ▪ dbdc915 SensitivePhoneNumbers: Fix number comparison
+ ▪ 2f82730 SensitivePhoneNumbers: Handle lists of MCC codes
+
+ ▪ project packages/services/Telephony/
+ ▪ 5e757b6 Fix phone process crash due to phone being null.
+ ▪ 8dec8e1 Telephony: Add ERI configuration for U.S. Cellular
+ ▪ 9a2dc6b Telephony: NetworkSelection: Don't show blank "available networks"
+ ▪ 06e4921 Telephony: Fix wrong en-translations
+ ▪ fbf9d6c Telephony: Workaround for MWI on Sprint
+
+ ▪ project vendor/cmsdk/
+ ▪ 283c894 CMSettingsProvider: Fix default setting for DEV_FORCE_SHOW_NAVBAR
+ ▪ b686799 livedisplay: Allow tile creation before boot completed phase [1/2]
+ ▪ efb99f3 cmsdk: fix picture adjustment from depending on color balance
+
+ ▼ 03/17/2018
+
+
+ ▪ project android/
+ ▪ 6982c5e RR: Drop crowdin support
+ ▪ ad20701 RR: Track own FMRadio
+ ▪ 23fd0a4 Update manifests for Resurrected Remix
+
+ ▪ project frameworks/av/
+ ▪ cf034a9 AACExtractor: check bounds during seek
+ ▪ e0e90e0 httplive: check for malformed EXT-X-STREAM-INF
+ ▪ 4d5ac06 Apply input buffer validation also to AVC and MPEG4 encoders
+ ▪ ee77753 IAudioPolicyService: Add attribute tags sanitization
+ ▪ 35783ea Fix the UAF bug caused by a dead stack variable
+ ▪ f91e9a1 Fix edge case when applying id3 unsynchronization
+ ▪ f960188 Add EFFECT_CMD_SET_PARAM parameter checking to Preset Reverb
+ ▪ fc8f5a5 Validate decryption key length to decrypt function.
+ ▪ 00161745 stagefright: MP4Extractor: allow 10% overhead on default sample size
+ ▪ fbf3fd2 Access AVCDEC context after create fail check
+ ▪ e6433e4 SoftAVCDec: Handle zero length input without EOS
+ ▪ d40073f Access HEVC context after create fail check
+
+ ▪ project frameworks/base/
+ ▪ d9af71b SettingsProvider: Remove deprecated def_force_disable_navkeys default
+ ▪ 4e97210 SystemUI: Fix LiveDisplay tile off color
+ ▪ 0452663 livedisplay: Allow tile creation before boot completed phase [2/2]
+ ▪ a6f1efa SystemUI: Fix crash when taking screenshot in partial screenshot view
+ ▪ e7f7a9a GlobalActions: Fix setting ringer mode in global actions
+ ▪ 169d12e fw: GlobalActions: Always dismiss any existing dialog
+ ▪ 19d3b1f Keyguard: Don't apply input restriction if disabled by profile
+ ▪ 5451146 DO NOT MERGE Backporting potential usb tapjacking precaution.
+ ▪ c476fae mtp: fix double free of thumbnail data
+ ▪ fc29aec Throw OOME if Bitmap.nativeCreate fails
+ ▪ cc4e09c Adjust Uri host parsing to use last instead of first @.
+ ▪ 17b1d43 SysUI: Add Russian translation for accessibility_battery_level_charging
+ ▪ 90b3452 SystemUI: Recents: Improve code for long app titles being overlapped
+ ▪ 25a0d6d We don't want to feel deprecated...
+
+ ▪ project packages/apps/CMParts/
+ ▪ 6c0aba2 CMParts: Don't disable whole home button category
+
+ ▪ project packages/apps/Settings/
+ ▪ e8aa7a4 Reword bluetooth confirmation dialog
+ ▪ d2b7dfd FingerprintEnrollFindSensor: Don't overlay front for side sensors
+ ▪ 6458dbf DevelopmentSettings: Fix possible NPE
+ ▪ f687e1f DevelopmentSettings: Hide OEM unlock by default
+ ▪ 6112a96 Settings: Hide physical keyboard settings when no phys. keyboard exists
+ ▪ 2541e4b Settings: Remove dead code
+ ▪ 034e7aa AppOps: Refactor code
+
+ ▪ project system/core/
+ ▪ 7b83eb1 libnetutil: Check dhcp respose packet length
+
+ ▪ project vendor/cm/
+ ▪ 655fbf1 build: Update smali and baksmali to 2.2.1
+ ▪ 46eeb79 sensitive_pn: add EU 116 Numbers
+ ▪ 0474b46 sensitive_pn: Include France DOM (Overseas regions) codes
+ ▪ 647468e Resurrected Remix - Nougat Edition Continued...
+
+ ▼ 03/10/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ faa6016 audio: Use audio_route_{apply/reset}_and_update_path
+
+ ▼ 03/09/2018
+
+
+ ▪ project external/libavc/
+ ▪ 04c9906 Decoder: Adding Error Check for Output Buffer Size in Shared Display Mode.
+ ▪ db6bf49 Decoder: Fixed memory overflow in shared display mode.
+
+ ▪ project external/libmpeg2/
+ ▪ 98beb25 Fixing Underflow of ps_dec->u2_num_mbs_left
+ ▪ 6337ea6 Adding Error Check for Output Buffer Size
+ ▪ d63479b Correcting Buffer Allocation for Shared Display
+
+ ▪ project system/bt/
+ ▪ a9c3c6d BNEP: Check received frame type
+ ▪ 9e46a39 Remove memory reference to invalid mem in error log
+ ▪ 3ee82f7 SDP: Include the offset in sdp_disc_server_rsp
+ ▪ 2f7820f SDP: Pass the bounds to process_service_*_rsp
+ ▪ c7c5824 Fix unexpected behavior in reading BNEP packets
+ ▪ 7705a32 PAN: Fix Use-after-free in bta_pan_data_buf_ind_cback
+ ▪ e0e8df0 AVRCP: Check the number of text attributes requested
+ ▪ abab132 Allocate/free the SDP connection timers only during stack startup/shutdown
+ ▪ a5ececa Removed alarm callback execution statistics
+ ▪ 1b2d48c Fix unexpected behavior in SDP
+
+ ▼ 03/07/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ b057e8b audio: Update mixer knobs after re-applying output route
+
+ ▼ 03/05/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 276108c audio: Guard mixer path dependency fix
+
+ ▪ project packages/apps/ResurrectedOTA/
+ ▪ 6d414a0 Merge pull request #21 from anoop44/nougat
+
+ ▼ 02/25/2018
+
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ 5539e4c hal: Haxed header
+
+ ▼ 02/24/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 4920b32 power: Allow POWER_HINT_DISABLE_TOUCH in low power mode
+
+ ▼ 02/20/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 032a3d5 power: Silence excessive logging
+
+ ▼ 02/19/2018
+
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ a79094a wifi: add flag to wait for kernel driver to get ready
+
+ ▪ project hardware/qcom/display-caf/msm8998/
+ ▪ 3f485ba Fix duplicate copy file rules
+ ▪ 3ee5f23 hwc: Set ioprio for vsync thread
+ ▪ c78e081 tonemapper: Depend on kernel headers
+
+ ▼ 02/18/2018
+
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/apps/WallpaperPicker/
+
+ ▼ 02/17/2018
+
+
+ ▪ project vendor/samsung/
+ ▪ 2ba9c64 a5y17lte: Initial import
+ ▪ 3172535 Squashed import of universal7880
+
+ ▼ 02/16/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ ce404a1 ril: Add support for imsType parcel member
+ ▪ c60828f ril: Add support for roamingProtocol parcel member
+
+ ▼ 02/13/2018
+
+
+ ▪ project vendor/cm/
+ ▪ 4556b6c Update Magisk to 15.3 and MagiskManager to 5.5.5 (#105)
+
+ ▼ 02/12/2018
+
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ 79d3517 hal: Fix soft reboots due to proximity sensor
+
+ ▪ project hardware/ti/omap4/
+ ▪ d31d876 pvr-km: pass BOARD_USE_TI_LIBION to make
+
+ ▼ 02/10/2018
+
+
+ ▪ project android/
+ ▪ 557c7b1 Update README.mkdn
+ ▪ 1e5494f Update README.mkdn
+ ▪ 7f5d30e Update README.mkdn
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ f3b1690 msm8998: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▼ 02/09/2018
+
+
+ ▪ project external/sonivox/
+ ▪ 28f3d88 Add recursion limit to XMF_ReadNode
+
+ ▪ project hardware/samsung/
+ ▪ 507e8ce audio: Avoid mixer path dependency conflicts
+
+ ▼ 02/08/2018
+
+
+ ▪ project external/libavc/
+ ▪ ffff285 Decoder: Modified loop condition while parsing ref_list_reordering.
+
+ ▪ project external/libhevc/
+ ▪ 1e65da9 Update ctb pu map for I slice
+ ▪ c60037b Check if luma wd and ht are multiple of min cb size
+
+ ▪ project external/sonivox/
+ ▪ 9174dd4 Fix memory leak
+
+ ▪ project external/svox/
+ ▪ cee7819 SVOX: Properly initialize buffers.
+
+ ▼ 02/07/2018
+
+
+ ▪ project external/wpa_supplicant_8/
+ ▪ 55f469a PMKSA: Fix use-after-free in pmksa_cache_clone_entry()
+
+ ▼ 02/06/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 8f74f0a dtbhtool: Print better warnings for PLATFORM/SUBTYPE mismatch
+
+ ▼ 02/05/2018
+
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 529fbc2 Gallery: Fix translatability of CAF additions to filtershow
+ ▪ 2a93162 Gallery2: Remove more CAF Chinese translation modifications
+
+ ▪ project vendor/codeaurora/telephony/
+ ▪ 2344388 Merge tag 'LA.UM.5.7.r1-11600-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into cm-14.1
+
+ ▼ 02/04/2018
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ d026b1f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.30' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ cbb359b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.30' into cm-14.1-caf-8916
+
+ ▪ project hardware/samsung/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/CertInstaller/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/HTMLViewer/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/KeyChain/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Nfc/
+
+ ▪ project packages/apps/Profiles/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+
+ ▪ project packages/apps/SamsungServiceMode/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+ ▪ dccd6a0 Snap: Fix translatability issues
+
+ ▪ project packages/apps/Stk/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/apps/WallpaperPicker/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/BookmarkProvider/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/CallLogProvider/
+
+ ▪ project packages/providers/ContactsProvider/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/providers/MediaProvider/
+
+ ▪ project packages/providers/TelephonyProvider/
+
+ ▪ project packages/providers/UserDictionaryProvider/
+
+ ▪ project packages/providers/WeatherProvider/
+
+ ▪ project packages/screensavers/Basic/
+
+ ▪ project packages/screensavers/PhotoTable/
+
+ ▪ project packages/services/CMAudioService/
+
+ ▪ project packages/services/WeatherService/
+
+ ▪ project packages/wallpapers/LivePicker/
+
+ ▼ 02/03/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 25b3f58 dtbhtool: implement unpackdtbhimg
+
+ ▼ 01/30/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 2bc97cb audio: Directly link voice data <-> session
+
+ ▼ 01/29/2018
+
+
+ ▪ project hardware/samsung/
+ ▪ 70d3e31 Added another new Murata MAC range
+ ▪ 0524e26 audio: Print error in case of nonexistant mixer paths
+
+ ▪ project packages/apps/Snap/
+ ▪ 6d78d4a Snap: Update pano and video icons to be more like photo icons
+
+ ▪ project vendor/samsung/
+ ▪ f126ef1 zero: De-commonize RIL Blobs
+
+ ▼ 01/28/2018
+
+
+ ▪ project external/toybox/
+ ▪ 3125af0 strings tests and bugfixes
+ ▪ c766ad3 "printf %x 64" wasn't working right on 32 bit because a variable type was wrong.
+
+ ▼ 01/27/2018
+
+
+ ▪ project external/sqlite/
+ ▪ 8577068 Add SQLITE_ENABLE_BATCH_ATOMIC_WRITE flag
+ ▪ d79bcdd sqlite: relax sync to improve performance
+ ▪ 9659392 sqlite: upgrade to SQLite 3.22.0
+
+ ▪ project hardware/ti/omap4/
+ ▪ 2c0550b init: Also try to load OMAPLFB as module
+
+ ▼ 01/26/2018
+
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 0db30c2 WallpaperPicker: Move strings for translation
+
+ ▼ 01/25/2018
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 5e2afea Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.043 on remote branch
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 4843e7c AudioFX: Remove stray quote
+
+ ▪ project system/vold/
+ ▪ 167d88c vold: Accept Linux GPT partitions on external SD cards
+
+ ▼ 01/24/2018
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ f280cab Jelly: Set correct webview visibility on Show/Hide CustomView
+
+ ▼ 01/23/2018
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 77b808b Jelly: add dialog to show SSL certificate info
+
+ ▼ 01/20/2018
+
+
+ ▪ project external/toybox/
+ ▪ 3db42e9 toybox: Don't generate symlinks for a few tools
+
+ ▪ project hardware/samsung/
+ ▪ d462f7b audio: Fix BT sample rate handling properly
+ ▪ 63e78f2 Revert "audio: Always use 16kHz sampling for SCO"
+
+ ▪ project kernel/samsung/smdk4412/
+ ▪ b7ffe7f Revert "t0lte: fix flashlight for t0ltedcm"
+
+ ▼ 01/19/2018
+
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 715d752 Fix setting root option first time
+
+ ▼ 01/17/2018
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ b7ae67f configs: msm8909: Add sound model config params
+
+ ▼ 01/16/2018
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 01/15/2018
+
+
+ ▪ project packages/apps/Recorder/
+ ▪ 23b8146 Recorder: Avoid NPE when screen recording is about to finish
+
+ ▪ project packages/apps/Snap/
+ ▪ 8fbb290 Snap: Add missing thumbnails for filter modes
+
+ ▪ project vendor/codeaurora/telephony/
+ ▪ f1dc793 Merge tag 'LA.UM.5.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into HEAD
+
+ ▪ project vendor/samsung/
+ ▪ c735d67 bt: add AptX blobs from OnePlus3t OxygenOS OpenBeta 5.
+
