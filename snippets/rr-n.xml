@@ -12,7 +12,6 @@
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
 
  <!-- Newer Clang Support -->
-  <project path="bootable/recovery" name="RR7_android_bootable_recovery" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
   <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
@@ -64,7 +63,6 @@
    <!-- External -->
   <project path="external/f2fs-tools" name="RR7_android_external_f2fs-tools" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/v8" name="RR7_external_v8" groups="pdk" remote="non" revision="cm-14.1" />
-  <project path="external/sqlite" name="RR7_android_external_sqlite" groups="pdk" remote="non" />
   
   <!-- OmniRom additions -->
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
