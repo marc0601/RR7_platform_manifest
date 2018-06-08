@@ -190,7 +190,7 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
-  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" />
+  <project path="external/libhevc" name="RR7_android_external_libhevc" groups="pdk" remote="non" revision="cm-14.1 />
   <project path="external/libjpeg-turbo" name="RR7_android_external_libjpeg-turbo" groups="pdk" remote="non"/>
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
