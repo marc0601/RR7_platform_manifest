@@ -176,7 +176,7 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" remote="aosp" />
-  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" />
+  <project path="external/libavc" name="RR7_android_external_libavc" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
