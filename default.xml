@@ -194,7 +194,7 @@
   <project path="external/libjpeg-turbo" name="RR7_android_external_libjpeg-turbo" groups="pdk" remote="non"/>
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
-  <project path="external/libmpeg2" name="RR_external_libmpeg2" groups="pdk" remote="non" revision="cm-14.1" />
+  <project path="external/libmpeg2" name="RR7_external_libmpeg2" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" remote="aosp" />
   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
