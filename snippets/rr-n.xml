@@ -38,7 +38,7 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="rr" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="rr" />
+  <project path="packages/apps/PhoneCommon" name="RR7_android_packages_apps_PhoneCommon" remote="non" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
