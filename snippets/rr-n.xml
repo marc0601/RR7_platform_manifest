@@ -53,7 +53,7 @@
   <project path="packages/apps/Settings" name="RR7_Resurrected_packages_apps_Settings" remote="non" />
   <project path="external/skia" name="RR7_android_external_skia" remote="non"/>
   <project path="art" name="art" remote="rr" />
-  <project path="frameworks/native" name="frameworks_native" remote="rr" />
+  <project path="frameworks/native" name="RR7_frameworks_native" remote="non" />
   <project path="system/core" name="RR7_system_core" remote="non" />
   <project path="system/extras" name="RR7_android_system_extras" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/google" name="android_external_google" remote="rr" />
