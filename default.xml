@@ -23,7 +23,7 @@
 	   revision="nougat" />
 
   <remote  name="non"
-	   fetch="https://github.com/non1979"
+	   fetch="https://github.com/encaro"
 	   revision="nougat" />
 
  <remote name = "bb"
