@@ -58,7 +58,7 @@
   <project path="system/extras" name="RR7_android_system_extras" groups="pdk" remote="non" revision="cm-14.1" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
+  <project path="packages/apps/PackageInstaller" name="RR7_android_packages_apps_PackageInstaller" remote="non" />
 
    <!-- External -->
   <project path="external/f2fs-tools" name="RR7_android_external_f2fs-tools" groups="pdk" remote="non" revision="cm-14.1" />
