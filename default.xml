@@ -26,6 +26,10 @@
 	   fetch="https://github.com/encaro"
 	   revision="nougat" />
 
+  <remote  name="ten"
+	   fetch="https://github.com/marc0601"
+	   revision="nougat" />
+
  <remote name = "bb"
           revision = "master"
           fetch = "https://bitbucket.org/" />
