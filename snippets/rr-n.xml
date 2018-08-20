@@ -3,7 +3,7 @@
 
   <!-- device tree -->
 
-  <project name="RR7_android_device_samsung_i9300" path="device/samsung/i9300" remote="non" revision="cm-14.1" />
+  <project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="non" revision="cm-14.1" />
   <project name="RR7_android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="non" revision="RR7" />
   <project name="RR7_android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="non" revision="RR" />
   <project name="RR7_android_hardware_samsung" path="hardware/samsung" remote="non" revision="RR7" />
