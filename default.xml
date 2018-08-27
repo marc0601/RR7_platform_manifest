@@ -80,7 +80,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk" remote="aosp" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" remote="aosp" />
+  <project path="external/apache-http" name="LineageOS/android_external_apache-http" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" remote="aosp" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
