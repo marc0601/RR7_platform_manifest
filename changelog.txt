@@ -1,6 +1,151 @@
-
  ▼ Resurrected Remix Nougat Ver 5.8.5 Changelog
 
+
+ ▼ 09/15/2018
+
+
+ ▪ project build/
+ ▪ 0deff34db Security string to 2018-09-05
+
+ ▪ project external/neven/
+ ▪ 6292919 Make bound check proper in bbf_Scanner_addOutPos
+
+ ▪ project frameworks/av/
+ ▪ 68352e5ad M3UParser: handle missing EXT-X-MEDIA URIs
+ ▪ 0eb30b92e M3UParser: make url on demand
+
+ ▪ project frameworks/base/
+ ▪ 207095cd06d Backport Prevent shortcut info package name spoofing
+ ▪ 8c46637009e Fix TrackInfo parcel write
+ ▪ 1e004204d95 Resolve inconsistent parcel read in NanoAppFilter
+
+ ▪ project kernel/samsung/smdk4412/
+ ▪ b40ba05f541 sched: keep System UI realtime (fixup 3)
+ ▪ b64459f647a sched: keep System UI realtime (fixup 2)
+ ▪ b6bde797b3e sched: keep System UI realtime (fixup)
+ ▪ c39bfc449d6 sched: keep System UI realtime
+ ▪ cf8f2050b6b sched: handle SystemUI, readjust priority dropping
+ ▪ 1906c050afd sched: reduce priority of non-interacting tasks
+ ▪ 3ee86e41104 backport: smp: patches from mainline 3.5 to hopefully help with hotplug Thomas Gleixner's generic-idle patches:
+ ▪ c490b8869d8 io prio boost
+ ▪ 754ad621d10 sched: experiment with Android's process priority changing
+
+ ▪ project libcore/
+ ▪ 85ee30504 Fix hostname parsing in java.net.URLStreamHandler.
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 58d247d Remove "public" download feature.
+
+ ▪ project system/bt/
+ ▪ 7c1264f5 SDP: return error on offset bigger than atribute length
+ ▪ fe9161fd DO NOT MERGE: SDP: Recalculate param_len after max_list_len
+ ▪ 4ea2cb5a Don't use Address after it was deleted
+ ▪ 18853ee5 DO NOT MERGE HFP: Fix out of bound access in phone number processing
+ ▪ a4bfd6db HID Host: Check L2CAP packet data length
+ ▪ 6a6882ce Add packet length checks in l2cble_process_sig_cmd
+ ▪ d63b0d40 Fix OOB read in process_l2cap_cmd
+ ▪ b8b3ec2e GATT: Use correct logging macro replacement
+
+ ▪ project system/core/
+ ▪ 63e1df991 init: add install_keyring for TWRP FBE decrypt
+ ▪ 9ce9ebf6e init.rc: Lock down access to /proc/net/fib_trie
+
+ ▼ 09/10/2018
+
+
+ ▪ project vendor/samsung/
+ ▪ 7d949091 chagalllte: Re-generated makefiles with common scripts
+
+ ▼ 09/03/2018
+
+
+ ▪ project vendor/samsung/
+ ▪ d3758c6f exynos5420-common: Re-generated makefiles with common scripts
+ ▪ a1f857c1 v1awifi: Re-generated makefiles with common scripts
+ ▪ 5b7a9bb0 n1awifi: Re-generated makefiles with common scripts
+ ▪ 5886f517 klimtwifi: Re-generated makefiles with common scripts
+ ▪ 5fcbef9f ha3g: Re-generated makefiles with common scripts
+ ▪ e5b46381 chagallwifi: Re-generated makefiles with common scripts
+
+ ▼ 08/28/2018
+
+
+ ▪ project device/samsung/i9300/
+ ▪ b9409a1 add sdcardfs prop
+
+ ▪ project kernel/samsung/smdk4412/
+ ▪ a34bc3a73fa fs: limit filesystem stacking depth
+ ▪ fb1a6aaa234 get rid of kern_path_parent()
+ ▪ e8429efe0d5 devtmpfsd: fix task state handling
+ ▪ afb50577d8e drivers/base/devtmpfs.c: correct annotation of `setup_done'
+ ▪ dab2685230a devtmpfs: missing initialialization in never-hit case
+ ▪ 5acc2775b3f fix devtmpfs race
+ ▪ 93274565c91 devtmpfs: get rid of bogus mkdir in create_path()
+ ▪ 07cd219e40e switch devtmpfs to kern_path_create()
+ ▪ 819948f11cf switch devtmpfs object creation/removal to separate kernel thread
+ ▪ 23d464d4e2b new helpers: kern_path_create/user_path_create
+ ▪ 2d0b8f0e7c8 ->permission() sanitizing: MAY_NOT_BLOCK
+ ▪ c451954e6fa audit: do not call audit_getname on error
+ ▪ b4da16b5469 vfs: make gcc generate more obvious code for acl permission checking
+ ▪ 6f18a74f5dd enable sdcardFS
+ ▪ 14fa5544440 sdcardfs: limit stacking depth
+ ▪ ac301e7a3b8 sdcardfs: Add support for parsing Android's package list
+ ▪ 7a1ffa8f330 sdcardfs: fix external storage exporting incorrect uid
+ ▪ f7bb7e280be sdcardfs: Remove stale dentries when reusing an inode.
+ ▪ 68333fdb1fc sdcardfs: Added top to sdcardfs_inode_info
+ ▪ ffdb440743a sdcardfs: Fix locking
+ ▪ fe62394daad sdcardfs: Check for other cases on path lookup
+ ▪ f7fe55b925e sdcardfs: override umask on mkdir and create
+ ▪ 0c4a9a33d16 ANDROID: sdcardfs: fix itnull.cocci warnings
+ ▪ 32e6238fbbf sdcardfs: Truncate packages_gid.list on overflow
+ ▪ 34e597e9247 inotify: Fix erroneous update of bit count
+ ▪ 99566fee5f5 vfs: change d_canonical_path to take two paths
+ ▪ 844b972b8d2 vfs: add d_canonical_path for stacked filesystem support
+ ▪ 40862825d8b VFS: Introduce inode-getting helpers for layered/unioned fs environments
+ ▪ 29c45b36bf9 sdcardfs: Remove unused code
+ ▪ c3eff531d0e sdcardfs: Add support for d_canonicalize
+ ▪ 1b5c25141dd sdcardfs: remove unneeded __init and __exit
+ ▪ 3f445eb55ea sdcardfs: fixup 2
+ ▪ a6af2c45751 sdcardfs: fixup
+ ▪ ff242f8ff8c sdcardfs: Bring up to date with Android M permissions:
+ ▪ 3d698cfea36 sdcardfs: Changed type-cast in packagelist management
+ ▪ c865f2a7e68 sdcardfs: (parts of) Port to 3.4
+ ▪ fb669815ddf Included sdcardfs source code for kernel 3.0
+ ▪ 9773768df9f fuse: Add support for d_canonical_path
+ ▪ 1d8a5dd0564 added filesystem dynamic read-ahead (Credits to Chad  Gooldman)
+
+ ▼ 08/19/2018
+
+
+ ▪ project vendor/samsung/
+ ▪ 7daad7b4 ha3g: Bring vendor blobs up-to-date
+ ▪ 63c9bf16 chagallwifi, klimtwifi, ha3g: Update RIL binaries
+ ▪ 43ca0649 v1awifi: Bring vendor blobs up-to-date
+ ▪ ec7ffaf5 n1awifi: Bring vendor blobs up-to-date
+ ▪ 889f21db klimtwifi: Bring vendor blobs up-to-date
+ ▪ fc61f1fb exynos5420-common: Bring vendors up-to-date
+ ▪ 0bd0e593 chagallwifi: Bring vendor blobs up-to-date
+ ▪ ffdab629 chagalllte: Bring vendor blobs up-to-date
+
+ ▼ 08/17/2018
+
+
+ ▪ project external/chromium-webview/
+ ▪ bca7359 Updated webviews to Chromium 67.0.3396.87
+
+ ▪ project vendor/samsung/
+ ▪ 4b32d322 exynos5420-common: Prettify makefile
+ ▪ 4a88b551 chagallwifi: Add fingerprint from chagalllte
+ ▪ 8e34a515 ha3g: Prettify makefile
+ ▪ ab2bf9aa klimtwifi: Prettify makefile
+ ▪ a75f77e3 chagallwifi: Prettify makefile
+ ▪ fca3cf81 n1awifi: Prettify makefile
+ ▪ 9bd9a963 n1awifi: Update NXP configs to 3.25.00
+ ▪ 18ec7ab8 klimtwifi: Update NXP configs to 3.25.00
+ ▪ b1e54224 ha3g: Update NXP configs to 3.25.00
+ ▪ 915bef8c chagallwifi: Update NXP configs to 3.25.00
+ ▪ 0efce227 exynos5420-common: update NXP LifeVibes libraries to 3.25.00
+ ▪ bf348079 chagalllte: Add proprietary blobs for chagalllte
 
  ▼ 08/13/2018
 
